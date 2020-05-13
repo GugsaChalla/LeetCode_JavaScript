@@ -4,13 +4,13 @@
  * @return {number}
  */
 var numJewelsInStones = function(J, S) {
-    let set = new Set();
+    let set = new Set()
     for(let i=0;i<J.length;i++){
-        set.add(J.charAt(i));
+        set.add(J.charAt(i))
         }
-    var count =0;
+    var count =0
     for(let i=0;i<S.length;i++){
-        if(set.has(S.charAt(i))){count++;}
+        if(set.has(S.charAt(i))){count++}
     }
-    return count;
+    return count
 };

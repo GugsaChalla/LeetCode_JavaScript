@@ -3,7 +3,7 @@
  * @return {string[]}
  */
 var fizzBuzz = function(n) {
-    const arr=[];
+    const arr=[]
     for(let i=1;i<n+1;i++){
         if(i%15===0){
             arr.push("FizzBuzz")

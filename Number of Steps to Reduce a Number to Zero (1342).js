@@ -6,12 +6,12 @@ var numberOfSteps  = function(num) {
     var count=0;
         while(num!=0){
             if(num%2===0){
-                num=num/2;
+                num=num/2
             }
             else{
-                num--;
+                num--
             }
-            count++;
+            count++
         }
-        return count;
+        return count
 };
